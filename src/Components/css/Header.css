@@ -1,0 +1,229 @@
+.topnav{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #333333;
+    padding: 0px 20px;
+
+
+}
+
+.topone{
+    width: 33.3%;
+    height: 100%;
+    color: white;
+    position: relative;
+   
+
+}
+.topone p{
+ margin: 0;
+ 
+
+}
+
+
+
+.topone:nth-child(1){
+  
+    box-shadow: 0px 0px 3px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.topone:nth-child(1) p{
+   font-size: 15px;
+}
+
+
+.topone:nth-child(2){
+    background-color: #F48321;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.toptop{
+    display: flex;
+  }
+
+
+  .menuimageicon{
+display: none;
+
+/* display: flex; */
+align-items: center;
+justify-content: center;
+width: 20%;
+font-size: 30px;
+
+
+  }
+
+  .tonavbar1{
+    height: 20%;
+    width: 100%;
+    background-color:#e7ecff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    /* border: 1px solid rgb(190, 186, 186); */
+  }
+  .tonavbar1 img{
+    width:30%;
+    /* filter: invert(); */
+  }
+
+
+  @media screen and (max-width:1300px){
+
+    .topone:nth-child(1) p{
+      font-size: 14px;
+   }
+
+   .topone:nth-child(2) p{
+    font-size: 14px;
+ }
+
+ .topone{
+  width: 40%;
+ 
+ 
+
+}
+  }
+
+
+
+
+  @media screen and (max-width:1100px){
+
+   
+ .topone{
+  width: 50%;
+ 
+
+}
+
+
+  }
+
+
+
+
+
+
+
+  @media screen and (max-width:768px){
+
+
+    .topone{
+      width: 100%;
+      height: 40px;
+     
+     
+    
+    }
+
+    .topnav{
+      flex-direction: column;
+      height:auto;
+      padding: 0;
+  
+  
+  }
+    .updates{
+        height: 20px;
+    
+    }
+    .updatesleft{
+        width: 10%;
+         height: 100%;   
+         font-size: 10px;        
+    
+        
+    }
+    .upinner a{
+        font-size: 10px;
+     
+     }
+
+
+
+     .toptop{
+        display: flex;
+      }
+    
+    
+      .menuimageicon{
+    /* display: none; */
+    /* background-color: #fdfdfd;     */
+    display: flex;
+    align-items: center;
+    background-color:#e7ecff;
+    justify-content: center;
+    width: 20%;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border:none;
+
+    
+    
+      }
+    
+      .tonavbar1{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 0px 20px;
+        padding: 13px;
+      }
+      .tonavbar1 img{
+        width:180px;
+      }
+    
+    
+    
+    
+
+    
+}
+
+
+
+
+@media screen and (max-width:414px){
+  .topone{
+    height: 30px;
+  }
+  .topone:nth-child(1) p{
+font-size: 11px;
+  
+  }
+  .topone:nth-child(2) p{
+    font-size: 12px;
+      
+      }
+
+
+      .menuimageicon{
+        
+        width: 20%;
+        font-size: 20px;
+        
+        
+          }
+}

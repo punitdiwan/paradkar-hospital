@@ -1,0 +1,622 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background:linear-gradient(rgb(190, 214, 245),rgb(241, 210, 250));
+  text-align: justify;
+}
+
+
+.welcomemain{
+  height: 320px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+.wecomeone{
+  width: 60%;
+  /* background-color: red; */
+  height: 100%;
+
+}
+
+
+
+
+.wecomeone .content{
+  height: 90%;
+  padding: 10px;
+}
+
+
+.wecomeone .content h2{
+ color: blue;
+}
+
+.wecomeone .content p{
+  font-size: 15px;
+ }
+.wecomeone .readbtn{
+  display: flex;
+  align-items: center;
+  height: 10%;
+  padding: 0px 10px;
+}
+
+
+.wecomeone .readbtn button{
+    padding:10px 20px;
+    color: white;
+    border: none;
+    background-color: green;
+}
+
+
+
+
+
+.wecomtwo{
+  width: 40%;
+  /* background-color: green; */
+  height: 100%;
+  padding: 20px;
+}
+
+.wecomtwo .boxone{
+  display: flex;
+  align-items: center;
+  background-color: red;
+  height:40px;
+  margin: 20px 0px;
+  color: white;
+  padding: 0px 10px;
+  width: 80%;
+  font-size: 15px;
+}
+
+.wecomtwo .boxone:nth-child(1){
+  background-color: rgb(24, 161, 47);
+ 
+}
+.wecomtwo .boxone:nth-child(2){
+  background-color: rgb(126, 197, 79);
+ 
+}
+
+
+.wecomtwo .boxone:nth-child(3){
+  background-color: rgb(50, 124, 0);
+ 
+}
+
+.ri-arrow-right-circle-line{
+  margin-right: 15px;
+}
+
+
+
+
+
+.jaimataran{
+  height: 500px;
+}
+
+.carousel-item{
+  height: 100%;
+  width: 100%;
+}
+.carousel-item img{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.cardslidersetup{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+
+
+.spcialitiesContent{
+  margin-bottom: 20px;
+
+  }
+.spcialitiesContent hr{
+  margin-bottom: 40px;
+  }
+
+.spcialitiesContent p{
+font-size: 13px;
+margin: 0;
+}
+
+.readbtnsecond{
+
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+
+.readbtnsecond button{
+ background-color: green;
+ padding: 5px 15px;
+ color: white;
+
+ border: none;
+}
+
+
+.secondbanner{
+  height: 300px;
+  margin-top: 30px;
+}
+
+
+
+
+.rolemimages{
+  width: 100%;
+  height: 400px;
+  /* background-color: rgb(207, 233, 248); */
+  position: relative;
+  overflow: hidden;
+  padding: 0px 50px;
+  
+}
+.roleoneimagemain{
+  position: absolute;
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* animation: identifier 25s 10s linear infinite; */
+  transition: all 2s ease-in-out;
+
+  
+  
+}
+.oneroleimages{
+  height: 270px;
+  width: 280px;
+  margin:10px 16px;
+position: relative;
+overflow: hidden;
+
+}
+.oneroleimages img{
+  height: 100%;
+  width:100%;
+  z-index: 10;
+
+ 
+
+}
+
+.topcc h5{
+  color: white;
+  }
+  .topcc p{
+    color: rgb(9, 198, 231);
+    font-size: 18px;
+    }
+
+.topcc{
+padding: 20px;
+ position: absolute; 
+ left:-160%;
+ z-index: 9999;
+
+}
+
+
+.blankbox{
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+}
+
+
+.oneroleimages:hover .blankbox{
+  background-color: rgba(3, 3, 3, 0.459);
+  z-index: 99;
+}
+
+
+
+.oneroleimages:hover .topcc{
+
+left: 0%;
+transition: all .3s ease-in-out;
+
+  }
+
+  
+  .topbb{
+   right:-100%;  
+    position: absolute;
+    background-color: rgb(240, 159, 9);
+    transform: rotate(45deg);
+    width: 50px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding:10px;
+    z-index: 1991;
+  }
+.ri-close-fill{
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+  .oneroleimages:hover .topbb{
+    right: -1%;
+    bottom: -18%;
+  transition: all .3s ease-in-out;
+  
+    }
+
+    .jkl{
+      display: none;
+    }
+
+@media screen and (max-width:767px){
+
+  .readbtnsecond{
+    margin-top: 20px;
+  
+  align-items: center;
+   }
+  .topcc h5{
+    font-size: 16px;
+    }
+    .topcc p{
+      color: rgb(9, 198, 231);
+      font-size: 14px;
+      }
+  
+  .topcc{
+  padding: 20px;
+   position: absolute; 
+   left:-160%;
+   z-index: 9999;
+  
+  }
+  .topbb{
+     width: 30px;
+     height: 100px;
+     padding:1px;
+   }
+ .ri-close-fill{
+   font-size: 20px;
+ }
+  .oneroleimages{
+    height: 200px;
+    width: 200px;
+  
+  }
+  .rolemimages{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(207, 233, 248);
+    position: relative;
+    overflow: hidden;
+    padding: 0px 20px;
+    
+  }
+  .welcomemain{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 10px;
+    margin-top: 30px;
+  }
+  
+  .wecomeone{
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  
+  
+  
+  .wecomeone .content{
+    height: 100%;
+    padding: 10px;
+  }
+  
+  
+  .wecomeone .content h2{
+   color: blue;
+  }
+  
+  .wecomeone .content p{
+    font-size: 15px;
+   }
+  .wecomeone .readbtn{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    padding: 0px 10px;
+  }
+  
+  
+  .wecomeone .readbtn button{
+      padding:10px 20px;
+      background-color: green;
+  }
+  
+  
+  
+  
+  
+  .wecomtwo{
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .wecomtwo .boxone{
+    width: 100%;
+    font-size: 15px;
+  }
+  
+ 
+  
+ 
+
+  .jaimataran{
+      height: 350px;
+  }
+
+
+
+
+  .cardslidersetup{
+    margin-top: 10px;
+  align-items:initial;
+
+  }
+
+  
+  
+  .spcialitiesContent p{
+  font-size: 13px;
+  margin: 0;
+  }
+  .roleoneimagemain{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: identifier 20s 5s linear infinite;
+    transition: all 2s ease-in-out;
+  
+    
+    
+  }
+  
+  
+  
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width:600px){
+.jkl{
+  display: block;
+  margin-top: 30px;
+}
+.jkl img{
+  height:400px;
+  width:100%;
+}
+.rolemimages{
+  display: none;
+}
+
+
+
+  .jaimataran{
+      height: 300px;
+  }
+
+
+  .cardslidersetup{
+    margin-top: 10px;
+    padding: 0px 0px;
+  }
+  
+
+  
+  
+  .spcialitiesContent p{
+  font-size: 13px;
+  margin: 0;
+  }
+  
+  
+  .readbtnsecond button{
+   background-color: green;
+   padding: 5px 12px;
+   font-size: 12px;
+  }
+
+
+
+  .secondbanner{
+    height: 250px;
+    margin-top: 30px;
+  }
+
+
+
+}
+
+@media screen and (max-width:500px){
+
+
+  .welcomemain{
+    margin-top: 15px;
+  }
+
+  
+  .jkl img{
+    height:350px;
+    width:100%;
+  }
+  .captpl{
+    display: none;
+  }
+  
+  
+  .wecomeone .content{
+    height: 100%;
+    padding: 10px;
+  }
+  
+  
+  .wecomeone .content h2{
+   font-size: 22px;
+  }
+  
+  .wecomeone .content p{
+    font-size: 13px;
+   }
+  .wecomeone .readbtn{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    padding: 0px 10px;
+  }
+  
+  
+  .wecomeone .readbtn button{
+      padding:5px 10px;
+      font-size: 13px;
+
+  }
+  
+  
+  
+  
+  
+  .wecomtwo{
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .wecomtwo .boxone{
+    font-size: 13px;
+  }
+
+
+
+  .jaimataran{
+      height: 280px;
+  }
+
+
+
+  .secondbanner{
+    height: 200px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width:400px){
+
+  .jaimataran{
+      height: 250px;
+  }
+
+  .jkl img{
+    height:300px;
+    width:100%;
+  }
+
+  .secondbanner{
+    height: 180px;
+    margin-top: 30px;
+  }
+
+
+
+
+}
+
+
+@media screen and (max-width:380px){
+
+  
+
+  .jkl img{
+    height:250px;
+    width:100%;
+  }
+
+
+
+
+
+
+}
+
+
+@keyframes identifier {
+  0%{
+    transform: translate(0);
+  }
+  25%{
+    transform: translate(-305px);
+
+  }
+  50%{
+    transform: translate(-610px);
+
+  }
+  75%{
+    transform: translate(-915px);
+
+  }
+  100%{
+    transform: translate(-1220px);
+    -webkit-animation-delay: 2s;
+
+  }
+
+
+}

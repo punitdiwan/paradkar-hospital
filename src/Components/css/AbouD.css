@@ -1,0 +1,200 @@
+.aboutdoctor{
+    height: 400px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutdinner{
+    width: 90%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+
+}
+
+
+.aboutdoctorone{
+
+    height:100%;
+    width: 50%;
+}
+
+.aboutdoctorone:nth-child(1){
+    background-color: rgb(207, 212, 212);  
+}
+
+.aboutdoctorone:nth-child(2){
+    /* background-color:rgb(204, 216, 230); */
+    padding: 20px;
+  
+}
+
+.hjkl{
+    height: 100%;
+    width: 100%;
+}
+
+.aboutctt{
+padding: 20px 50px; 
+}
+
+
+.photoimg{
+    height: 100px;
+    width: 100px;
+}
+.photoimg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contentofphoto{
+    margin-top: 20px;
+}
+.contentofphoto p{
+    font-size: 14px;
+}
+
+.aboutdoctorinnerone{
+    width:"90%";
+    height: 100%;
+
+}
+
+.headerdoctorone{
+    width: 100%;
+    height: 15%;
+}
+
+.headerdoctoroneContent{
+background-color: #3278B0;
+    color: white;
+    width: 100%;
+    height: 85%;
+    padding:5px 20px;
+}
+.ri-hospital-fill{
+    font-size: 45px;
+}
+
+.headerdoctoroneContent p{
+font-size: 13px;
+}
+
+
+@media screen and (max-width:767px){
+
+    .aboutdoctor{
+        height: auto;
+        margin-top: 30px;
+    }
+    
+    .aboutdinner{
+        width: 90%;
+        height: 100%;
+        flex-direction: column;
+    
+    }
+    .aboutdoctorone{
+
+        height:100%;
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width:500px){
+
+    .aboutdoctor{
+        height: auto;
+        margin-top: 30px;
+    }
+    
+    .aboutdinner{
+        width: 95%;
+      
+    
+    }
+   
+    .aboutctt{
+        padding: 20px 30px; 
+        }
+        
+        
+        .photoimg{
+            height: 70px;
+            width: 70px;
+        }
+        
+        
+        .contentofphoto{
+            margin-top: 20px;
+        }
+        .contentofphoto p{
+            font-size: 13px;
+        }
+        
+          
+        .headerdoctorone{
+            width: 100%;
+            height: 20%;
+        }
+        
+      
+        .ri-hospital-fill{
+            font-size: 30px;
+        }
+        
+        .headerdoctoroneContent p{
+        font-size: 14px;
+        }
+
+
+    
+}
+
+
+@media screen and (max-width:500px){
+
+    .aboutdoctor{
+        height: auto;
+        margin-top: 25px;
+    }
+    
+    
+   
+    .aboutctt{
+        padding: 20px 20px; 
+        }
+        
+        
+        .photoimg{
+            height: 60px;
+            width: 60px;
+        }
+        
+        
+        
+        .contentofphoto p{
+            font-size: 13px;
+        }
+        
+        
+      
+        .ri-hospital-fill{
+            font-size: 30px;
+        }
+        
+        .headerdoctoroneContent p{
+        font-size: 13px;
+        }
+
+
+    
+}

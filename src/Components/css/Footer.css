@@ -1,0 +1,262 @@
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: rgb(204, 247, 232);
+}
+
+.fotterleft{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fotterright{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerbt{
+    display: flex;
+   
+}
+
+.footerbtone ul li a{
+color: rgb(34, 33, 33);
+text-decoration: none;
+font-size: 12px;
+}
+
+
+
+
+
+.topfoottergk{
+     width: 100%;
+     /* background-color: red; */
+     height: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.middlefoottergk{
+    width: 90%;
+    height: 80%;
+    /* background-color: yellow; */
+    display: flex;
+
+}
+
+
+.onefoottergk:nth-child(1){
+width: 20%;
+background-color: #7CBA3D;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 20px 30px;
+}
+
+.onefoottergk:nth-child(1) p{
+    color: white;
+    font-weight: bold   ;
+    }
+    .onefoottergk:nth-child(1) .contactone{
+       display: flex;
+        }
+
+    
+        .onefoottergk:nth-child(1) .contactone .social{
+           height: 30px;
+           width: 30px;
+           border:1px solid white;
+           border-radius: 2px;
+           margin: 0 10px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           color: white;
+             }
+
+             .onefoottergk:nth-child(1) .contactone .social:hover{
+background-color: rgba(211, 211, 211, 0.329);
+
+             }
+     
+
+.onefoottergk:nth-child(2){
+    width: 40%;
+    background-color: #43A140;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    .onefoottergk:nth-child(2) i{
+        font-size: 40px;
+        color: white;
+    }
+
+    .onefoottergk:nth-child(2) p{
+        font-size: 13px;
+        color: white;
+    }
+
+    .onefoottergk:nth-child(2) h5{
+        font-size: 15px;
+        color: white;
+    }
+
+    .onefoottergk:nth-child(2) .contacttwo{
+width: 80%;
+
+
+    }
+    
+    .onefoottergk:nth-child(3){
+        width: 40%;
+        height: 100%;
+        background-color: #228337;
+        display: flex;
+    align-items: center;
+    justify-content: space-around;
+        }
+
+
+
+
+
+        .onefoottergk:nth-child(3) i{
+            font-size: 40px;
+            color: white;
+        }
+    
+        .onefoottergk:nth-child(3) p{
+            font-size: 13px;
+            color: white;
+        }
+    
+        .onefoottergk:nth-child(3) h5{
+            font-size: 15px;
+            color: white;
+        }
+    
+        .onefoottergk:nth-child(3) .contacttwo{
+    width: 80%;
+    
+    
+        }
+
+
+.btfooterone{
+    box-shadow: 0px 0px 3px white;
+            height: 100%;
+            /* width: 100%; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 10px;
+            color: white;
+            font-size: 12px;
+           
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media screen and (max-width:768px){
+.topfoottergk{
+    height: auto;
+    margin-top: 30px;
+}
+   .middlefoottergk{
+  flex-direction: column;
+  width: 95%;
+    }
+
+    .middlefoottergk p{
+        margin: 0;
+          }
+
+
+    .onefoottergk:nth-child(1){
+        padding: 10px 20px;
+        width: 100%;
+    }
+    .onefoottergk:nth-child(2){
+        width: 100%;
+        padding: 10px 20px;
+
+    }
+
+    .onefoottergk:nth-child(3){
+        width: 100%;
+        padding: 10px 20px;
+
+    }
+
+
+    .footercontent{
+        flex-direction: column;
+        padding: 30px 15px;
+        background-color: rgb(204, 247, 232);
+    }
+
+.fftp{
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 100%;
+    align-items: left;
+}
+
+
+.fffbt{
+    justify-content: left;
+    width: 100%;
+    align-items: left;
+}
+.fotterleft{
+    width: 100%;
+}
+
+.footerbt{
+    align-items: center;
+    justify-content: center;
+}
+
+.footertop{
+    text-align: center;
+}
+
+        }
+
+
+
+        @media screen and (max-width:768px){
+
+            .btfooterone{
+                
+                        padding: 0px 8px;
+                        
+                        font-size: 9px;
+                       
+            }
+        }
