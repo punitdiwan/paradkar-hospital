@@ -11,7 +11,10 @@ const Banner = () => {
         <div class="carousel-inner jaimataran">
           
           <div class="carousel-item active" data-bs-interval="2000">
-            <img src="./images/hban.jpeg" class="d-block w-100" alt="..." />
+            <img src="./images/aka1.jpeg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="./images/aa1.jpeg" class="d-block" style={{width:"100%"}} alt="..." />            
           </div>
           <div class="carousel-item" data-bs-interval="10000">
             <img src="./images/aaa.jpeg" class="d-block" style={{width:"100%"}} alt="..." />            
@@ -19,9 +22,7 @@ const Banner = () => {
           <div class="carousel-item">
             <img src="./images/abab.jpeg" class="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item" data-bs-interval="10000">
-            <img src="./images/aa1.jpeg" class="d-block" style={{width:"100%"}} alt="..." />            
-          </div>
+        
         </div>
         <button
           class="carousel-control-prev"

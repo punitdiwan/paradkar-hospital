@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/style.css"
+import { Link } from "react-router-dom";
 
 
 
@@ -10,23 +11,23 @@ const Navbarr = () => {
       <div class="menu-bar">
         <ul>
           <li>
-            <a href="#">HOME</a>
+            <Link to="/">HOME</Link>
           </li>
 
           <li>
-            <a href="#">
+            <Link to="/about">
               ABOUT US
-            </a>
+            </Link>
           
           </li>
 
           <li>
-            <a href="#">OUR DEPARTMENTS</a>
+            <Link to="/our_department">OUR DEPARTMENTS</Link>
           </li>
 
          
           <li>
-            <a href="#">FACILITIES WE PROVIDE</a>
+            <Link to="/facility">FACILITIES WE PROVIDE</Link>
           </li>
          
 
@@ -35,26 +36,20 @@ const Navbarr = () => {
           
          
           <li>
-            <a href="#">
+            <Link to="/gallery">
               GALLERY
-            </a>
+            </Link>
 
             
           </li>
 
        
 
+        
           <li>
-            <a href="#">
-              CARRER WITH US
-            </a>
-
-            
-          </li>
-          <li>
-            <a href="#">
+            <Link to="/contact">
               CONTACT US
-            </a>
+            </Link>
 
            
           </li>

@@ -74,7 +74,7 @@ body{
   align-items: center;
   background-color: red;
   height:40px;
-  margin: 20px 0px;
+  margin: 40px 0px;
   color: white;
   padding: 0px 10px;
   width: 80%;
@@ -183,6 +183,7 @@ justify-content: center;
   overflow: hidden;
   padding: 0px 50px;
   
+  
 }
 .roleoneimagemain{
   position: absolute;
@@ -190,6 +191,7 @@ justify-content: center;
   width: auto;
   display: flex;
   align-items: center;
+  text-align: left;
   justify-content: center;
   /* animation: identifier 25s 10s linear infinite; */
   transition: all 2s ease-in-out;
@@ -385,6 +387,8 @@ transition: all .3s ease-in-out;
   .wecomtwo .boxone{
     width: 100%;
     font-size: 15px;
+  margin: 20px 0px;
+
   }
   
  

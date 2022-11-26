@@ -88,8 +88,8 @@ const Home = () => {
     <div className="cardslidersetup">
       <div className="spcialitiesContent text-center">
         <h5>OUR SPECIALITIES</h5>
-        <hr width="50" align-center style={{height:"5px", background:"green",border:"none", margin:"auto"}}/>
-        <p>Carrers meets cure choose form a pool of high skilled renowned and credible doctors</p>
+        <hr width="50" align-center style={{height:"5px", background:"green",border:"none", margin:"auto", borderRadius:"5px"}}/>
+        <p style={{marginTop:"10px"}}>Carrers meets cure choose form a pool of high skilled renowned and credible doctors</p>
         <p>Individual quality care that meets the total need of patient</p>
       </div>
 

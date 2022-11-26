@@ -10,7 +10,7 @@ const Roleimages = () => {
             <div className="oneroleimages">
                 <div className="topcc">
                     <h5>Dr. Mangala Paradkar(MS)</h5>
-                    <p>Gynecologist & Laproscopy Surgery Specialist</p>
+                    <p>Gynecologist&Laproscopy Surgery Specialist</p>
                     <hr width="40px" style={{backgroundColor:"white" , height:"3px", border:"none"}} />
                 </div>
                 <div className="blankbox"></div>
@@ -39,7 +39,7 @@ const Roleimages = () => {
             <div className="oneroleimages">
                 <div className="topcc">
                     <h5>Dr. L. N Paradkar</h5>
-                    <p>MD (Medicine) Medical Specialist & Cardiologist</p>
+                    <p>MD (Medicine) Medical Specialist&Cardiologist</p>
                     <hr width="40px" style={{backgroundColor:"white" , height:"3px", border:"none"}} />
                 </div>
                 <div className="blankbox"></div>
@@ -53,7 +53,7 @@ const Roleimages = () => {
             <div className="oneroleimages">
                 <div className="topcc">
                     <h5>Dr. Pranjal Paradkar (MS, DNB)</h5>
-                    <p>Gynecologist, Laproscopy Surgeon & Sonologist</p>
+                    <p>Gynecologist, Laproscopy Surgeon&Sonologist</p>
                     <hr width="40px" style={{backgroundColor:"white" , height:"3px", border:"none"}} />
                 </div>
                 <div className="blankbox"></div>

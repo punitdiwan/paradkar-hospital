@@ -13,7 +13,7 @@ const Welcome = () => {
               world-class healthcare, we have a team of leading doctors with
               robust expertise who are committed to providing highest standards
               of medical excellence at a fraction of international costs.
-              Centrally located in the city, PARADKAR HOSPITAL is a
+              Centrally located in the city, <b>PARADKAR HOSPITAL</b> is a
               one-of-a-kind institute which offers all multi-speciality services
               under one roof constantly working towards redefining the concept
               of medical care.

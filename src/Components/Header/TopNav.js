@@ -8,7 +8,7 @@ const TopNav = () => {
                 <p> Address - Khairi Naka Narsinghpur (M.P) </p>
             </div>
             <div className="topone">
-              <p>CONTACT : 07554007000</p>
+              <p>CONTACT : +91 - 942 516 8701</p>
             </div>
 
     </div>

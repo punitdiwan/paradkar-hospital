@@ -87,7 +87,7 @@ const AboutDoctors = () => {
                   style={{
                     height: "3px",
                     border: "none",
-                    backgroundColor: "green",
+                    backgroundColor: "white",
                   }}
                 />
               </div>
