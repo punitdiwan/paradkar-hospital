@@ -20,6 +20,8 @@
 
 .footerbt{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
    
 }
 
@@ -184,12 +186,13 @@ width: 80%;
 
         @media screen and (max-width:768px){
 .topfoottergk{
+    width: 100%;
     height: auto;
     margin-top: 30px;
 }
    .middlefoottergk{
   flex-direction: column;
-  width: 95%;
+  width: 100%;
     }
 
     .middlefoottergk p{

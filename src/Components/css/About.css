@@ -1,0 +1,63 @@
+.Aboutuspage{
+    height: 80vh;
+    width: 100%;
+    /* background-color: red; */
+    padding: 50px;
+    display: flex;
+}
+
+.aboutonep{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.aboutonep:nth-child(1) ul li{
+   line-height: 30px;
+ 
+}
+.aboutonep:nth-child(1) #ppp{
+   color: blue;
+  
+ }
+
+.aboutonep:nth-child(2){
+   
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.aboutonep .abimages{
+    height: 100%;
+    width: 95%;
+    background: url("/public/images/bhopal-fracture-i3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .Aboutuspage{
+        height: auto;      
+        padding: 30px;
+        flex-direction: column;
+    }
+    .aboutonep{
+        width: 100%;
+     
+        
+    }
+
+    .aboutonep:nth-child(2){
+   
+       
+        justify-content: center;
+    }
+    .aboutonep .abimages{
+      height:50vh;
+      width:100vw;
+    }
+}

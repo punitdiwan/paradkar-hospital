@@ -8,6 +8,9 @@
 }
 
 .aboutdinner{
+   
+
+
     width: 90%;
     height: 100%;
     /* background-color: yellow; */
@@ -27,7 +30,7 @@
 }
 
 .aboutdoctorone:nth-child(2){
-    /* background-color:rgb(204, 216, 230); */
+    background-color: #3278B0;
     padding: 20px;
   
 }
@@ -62,6 +65,7 @@ padding: 20px 50px;
 .aboutdoctorinnerone{
     width:"90%";
     height: 100%;
+
 
 }
 
@@ -99,6 +103,11 @@ font-size: 13px;
         flex-direction: column;
     
     }
+    .aboutdoctorone:nth-child(2){
+       margin-top: 20px;
+      
+    }
+    
     .aboutdoctorone{
 
         height:100%;
