@@ -624,3 +624,83 @@ transition: all .3s ease-in-out;
 
 
 }
+
+
+/* ----------------------------Banner-------------------------------- */
+
+.carousel-con h1{
+  position: absolute;
+  top: 41%;
+  left: 20px;
+  z-index: 999;
+  color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+.carousel-con h2{
+  position: absolute;
+  top: 49%;
+  left: 20px;
+  z-index: 999;
+  color: #ffffff;
+  font-size: 41px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+@media (max-width:700px) {
+  .carousel-con h1{
+    font-size: 22px;
+  }
+  .carousel-con h2{
+    top: 50%;
+    font-size: 22px;
+  }
+}
+.carousel-con-1 h1{
+  position: absolute;
+  top: 48%;
+  right: 80px;
+  z-index: 999;
+  color: #ffffff;
+}
+.carousel-con-1 h2{
+  position: absolute;
+  top: 42%;
+  right: 240px;
+  z-index: 999;
+  color: #ffffff;
+}
+
+@media (max-width:1000px) {
+  .carousel-con-1 h2{
+    top: 42%;
+    right: 190px;
+  }
+  .carousel-con-1 h1{
+    top: 48%;
+    right: 60px;
+  }
+}
+@media (max-width:700px) {
+  .carousel-con-1 h1{
+    top: 48%;
+    right: 40px;
+    font-size: 20px;
+  }
+  .carousel-con-1 h2{
+    
+    top: 43%;
+    right: 115px;
+    font-size: 17px;
+  }
+}
+@media (max-width:500px) {
+  .carousel-con-1 h1{
+    top: 48%;
+    right: 15px;
+  }
+  .carousel-con-1 h2{
+    
+    top: 42%;
+    right: 92px;
+    
+  }
+}
