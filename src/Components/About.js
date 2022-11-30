@@ -7,11 +7,11 @@ const About = () => {
         <div className="aboutonep">
           <h2>About Us</h2>
           <p id="ppp">
-            A TEAM COMMITTED TO CARING FOR THE PEOPLE IN MIND, BODY, AND SPIRIT.
+            A TEAM COMMITTED TO CARING FOR THE Patient IN MIND, BODY, AND SPIRIT.
           </p>
           <div className="para">
-            <p>PARADKAR is a medical group, professionally managed with quality-driven
-            multi-specialist practice. PARADKAR includes more than 120 physicians in
+            <p>PARADKAR is a Hospital & Research Center, professionally Managed with Quality-driven
+            Multi-specialist Practice. PARADKAR Hospital & Research Center includes more than 120 physicians in
             17 medical and surgical department, 35 doctors including RMO’s, 33
             nursing staff, 6 OT/CSSD technician, 5 radiographer and nearly 83
             non-clinical staff, apart from this the hospital has 49 beds. The

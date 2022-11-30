@@ -71,7 +71,7 @@ const OurDepartment = () => {
               </div>
             </div>
           </div>
-          <div className="ourdepcards">
+          {/* <div className="ourdepcards">
             <div className="cardone">
               <div className="cardepimg">
                 <div className="cardiggdep">
@@ -118,7 +118,7 @@ const OurDepartment = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

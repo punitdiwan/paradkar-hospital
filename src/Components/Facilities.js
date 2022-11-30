@@ -28,10 +28,10 @@ const Facilities = () => {
         </div>
         <div className="ourdeptwo">
           <div className="facilitycard">
-            <div className="onefcard">
+            {/* <div className="onefcard">
               <img src="./images/air-conditioner.png" alt="" />
               <p>Centrally air-conditioned hospital</p>
-            </div>
+            </div> */}
             <div className="onefcard">
               <img src="./images/icu.png" alt="" />
               <p>24x7 20 bedded ICU &HDU</p>
@@ -49,10 +49,10 @@ const Facilities = () => {
 
 
           <div className="facilitycard">
-            <div className="onefcard">
+            {/* <div className="onefcard">
               <img src="./images/ctscan.png" alt="" />
               <p>CT scan services</p>
-            </div>
+            </div> */}
             <div className="onefcard">
               <img src="./images/conference.png" alt="" />
               <p>Seminar hall</p>
@@ -85,7 +85,7 @@ const Facilities = () => {
             </div>
             <div className="onefcard">
               <img src="./images/cafeteria.png" alt="" />
-              <p>24x7 cafeteria</p>
+              <p>24x7 Canteen</p>
             </div>
           </div>
 

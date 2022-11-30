@@ -31,7 +31,7 @@ const TopFooter = () => {
                         <i class="ri-mail-fill"></i>
                                 <div className="contacttwo">
                                     <p>FEEL FREE TO CALL OR MESSAGE US! 24x7</p>
-                                    <h5>paragparadkar@gmail.com</h5>
+                                    <h5>Paragparadkar@hotmail.com</h5>
                                     <h5>+91-9425168701</h5>
                                 </div>
                             </div>
