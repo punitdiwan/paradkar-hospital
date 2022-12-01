@@ -29,8 +29,8 @@ const Contactus = () => {
                 <p>
                   Have any question! Feel free to reach us by phone or mail.
                 </p>
-                <p>T : +91 - 942 516 8701</p>
-                <p>E : paragparadkar@gmail.com</p>
+                <p>T : +91 - 8989665055</p>
+                <p>E : Paragparadkar@hotmail.com</p>
               </div>
             </div>
           </div>
@@ -38,13 +38,7 @@ const Contactus = () => {
 
         <div className="aboutonep cmmap">
           <div className="apmap">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1298.968491753318!2d79.18934409311487!3d22.94883805155849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397f9ccf0cbccdeb%3A0xcf9eb6d4b39139b6!2sPARADKAR%20HOSPITAL%20(old)!5e0!3m2!1sen!2sin!4v1669455783937!5m2!1sen!2sin"
-              style={{ border: 0 }}
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.056424105534!2d79.17109411492338!3d22.948149024864232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397f9ce8d6836191%3A0x93ecbbd35bfefaf1!2sParadkar%20Hospital!5e0!3m2!1sen!2sin!4v1669811538153!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>

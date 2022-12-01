@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .ourdepone #ppp{
@@ -44,8 +43,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 300px;
-    width: 250px;
+    height: 400px;
+    width: 350px;
     margin: 10px;
    box-shadow: 0px 0px 5px black;
 }
@@ -78,8 +77,25 @@
 
     
 }
+@media (max-width:1250px) {
+    .cardone{
+        height: 500px;
+    }
+}
 
-
+@media (max-width:1000px) {
+    .ourdepcards{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cardone{
+      
+        height: 400px;
+        width: 80vw;
+      
+    }
+}
 
 @media screen and (max-width:768px){
     .ourdepcards{
@@ -95,11 +111,7 @@
         width: 80px;   
     
     }
-    .cardone{
-        
-        width: 380px;
-        
-    }
+   
 }
 
 
@@ -130,11 +142,7 @@
 
 
 @media screen and (max-width:520px){
-    .ourdepcards{
-        display: flex;
-        flex-direction: column;
-        
-    }
+    
     .cardiggdep{
         height:100px;
         width: 100px;   
@@ -155,20 +163,16 @@
     
     .cadcontt{
         height: 60%;
-    
     }
-    .cadcontt p{
-       font-size: 18px;
-    
-    }
+   
 }
 
 @media screen and (max-width:414px){
     
     .cardone{
         
-        width: 320px;
-        
+        width: 300px;
+        height: 450px;
     }
     .cardepimg{
         height: 40%;
@@ -182,8 +186,5 @@
         height: 60%;
     
     }
-    .cadcontt p{
-       font-size: 18px;
-    
-    }
+   
 }

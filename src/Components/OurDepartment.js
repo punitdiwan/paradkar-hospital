@@ -7,13 +7,13 @@ const OurDepartment = () => {
         <div className="ourdepone">
           <h2>Departments</h2>
           <p id="ppp">
-            CENTER OF EXCELLENCE FOR SEVERAL KEY SPECIALTIES AND SUPERSPECIALTIE
+          CENTER OF EXCELLENCE FOR  KEY SPECIALTIES AND  SUPERSPECIALIST
           </p>
           <div className="para">
             <p>
               We are unique and our state of the art facilities spread across
               our hospital location and each Centre of Excellence stands out as
-              a citadel of excellence. At <b>PARADKAR HOSPITAL</b> , we consider it our prime
+              a citadel of excellence. At <b>PARADKAR HOSPITAL & RESEARCH CENTRE</b> , we consider it our prime
               responsibility to provide high quality clinical care to all our
               patients. Putting the patient at the core of our operations, we
               have developed robust quality standards, used expert diagnoses and
@@ -31,10 +31,10 @@ const OurDepartment = () => {
                 </div>
               </div>
               <div className="cadcontt">
-                <h5>Orthopaedics</h5>
+                <h5> ORTHOPAEDICS</h5>
                 <p>
                   Orthopedic surgery or orthopaedics is the branch of surgery
-                  concerned with conditions involving the musculoskeletal system
+                  concerned with conditions involving the musculoskeletal system.Sports medicine doctors specialize in the treatment and diagnosis of injuries related to the body's muscles, bones, ligaments, and tendons; Orthopedic surgeons focus on diagnosing and treating bone disorders such as fractures or diseases like arthritis.
                 </p>
               </div>
             </div>
@@ -42,15 +42,14 @@ const OurDepartment = () => {
             <div className="cardone">
               <div className="cardepimg">
                 <div className="cardiggdep">
-                  <img src="./images/cardiology.jpg" alt="" />
+                  <img src="./images/ARTHROSCOPY.jpeg" alt="" />
                 </div>
               </div>
               <div className="cadcontt">
-                <h5>Cardiologist</h5>
+                <h5>ARTHROSCOPY & JOINT REPLACEMENT SERVICES</h5>
                 <p>
-                  Cardiology deals with the disorders of the heart & some parts
-                  of the circulatory system. This includes the diagnosis &
-                  treatment of heart defects.
+                Arthroscopy is a surgical procedure doctors use to look at, diagnose, and treat problems inside a joint. It's a minor surgery.
+Joint Replacement is a surgical procedure in which parts of an arthritic or damaged joint are removed and replaced with a metal, plastic.Providers usually replace the entire joint (total joint replacement). Less often, they replace only the damaged part of the joint.
                 </p>
               </div>
             </div>
@@ -58,15 +57,14 @@ const OurDepartment = () => {
             <div className="cardone">
               <div className="cardepimg">
                 <div className="cardiggdep">
-                  <img src="./images/trauma-care.jpg" alt="" />
+                  <img src="./images/GENERAL-SEURGERY.jpeg" alt="" />
                 </div>
               </div>
               <div className="cadcontt">
-                <h5>Medical Specialist</h5>
+                <h5>GENERAL SURGERY</h5>
                 <p>
-                  There are three medical specialties: internal medicine, family
-                  medicine, and pediatrics. Within each of these, specialists
-                  may choose to focus
+                General surgery is a surgical specialty that focuses on alimentary canal and abdominal contents including the esophagus, stomach, small intestine.
+General Surgery" is a discipline of surgery having a central core of knowledge embracing anatomy, physiology, metabolism, immunology, nutrition, pathology, wound healing, shock and resuscitation, intensive care
                 </p>
               </div>
             </div>
@@ -75,15 +73,14 @@ const OurDepartment = () => {
             <div className="cardone">
               <div className="cardepimg">
                 <div className="cardiggdep">
-                  <img src="./images/ob-sonology-top.jpg" alt="" />
+                  <img src="./images/IVF.jpeg" alt="" />
                 </div>
               </div>
               <div className="cadcontt">
-                <h5>Sonologist</h5>
+                <h5>IVF & TEST TUBE BABY CENTRE</h5>
                 <p>
-                  Sonology is a neologism used to describe the study of sound in
-                  a variety of disciplines. In medicine, the term is used in the
-                  field of [imaging] to describe .
+                A test-tube baby is a baby who is conceived by IVF. IVF is in vitro fertilization where the word “vitro” means glass. In such cases, the fertilization is done outside the uterus in a glass vessel by combining a female egg with a sperm. IVF and test-tube babies are the same with no difference at all.These centers not only offer the treatment of infertility through the IVF process, but they also provide egg and sperm donation, freezing eggs, surrogacy, gestation carrier services and many other.
+ 
                 </p>
               </div>
             </div>
@@ -91,15 +88,15 @@ const OurDepartment = () => {
             <div className="cardone">
               <div className="cardepimg">
                 <div className="cardiggdep">
-                  <img src="./images/laproscopy.jpg" alt="" />
+                  <img src="./images/ULTRASONOGRAPHY.jpeg" alt="" />
                 </div>
               </div>
               <div className="cadcontt">
-                <h5>Laproscopy</h5>
+                <h5>ADVANCED ULTRASONOGRAPHY SERVICES</h5>
                 <p>
-                  This operation is performed in the abdomen or pelvis with the
-                  assistance of a camera. The laparoscope supports diagnosis or
-                  therapeutic interventions.
+                A procedure that uses high-energy sound waves to look at tissues and organs inside the body. The sound waves make echoes that form pictures of the tissues and organs on a computer screen (sonogram). Ultrasonography may be used to help diagnose diseases, such as cancer.
+It is an important tool for assessing fetal health, and most women have at least one ultrasound during pregnancy.
+
                 </p>
               </div>
             </div>
@@ -111,10 +108,10 @@ const OurDepartment = () => {
                 </div>
               </div>
               <div className="cadcontt">
-                <h5>Gynecology</h5>
+                <h5>GYNAECOLOGY & OBSTETRICS</h5>
                 <p>
-                  Gynecology is the care of women-specific disorders and the
-                  problems related to female reproductive organs.
+                Gynaecology or gynecology is the medical practice dealing with the health of the female reproductive systems and the breasts. Outside medicine, the term means "the science of women". We try to provide you a friendly patient atmosphere where you can discuss all your problems
+Obstetricians provide surgical care for women during pregnancy and childbirth. They also handle postnatal care.
                 </p>
               </div>
             </div>
