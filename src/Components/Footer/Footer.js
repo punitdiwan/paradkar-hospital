@@ -16,50 +16,51 @@ const Footer = () => {
             <h6>Our Departments</h6>
           </div>
           <div className="footerbt fftp">
-            <div className="footerbtone">
+          <div className="footerbtone">
               <ul type="square">
                 <li>
                  
                   <Link to="/our_department">ORTHOPAEDICS</Link>
                 </li>
                 <li>
-                
-                  <Link to="/our_department">CARDIOLOGIST</Link>
-                </li>
-              </ul>
-            </div>
-            <div className="footerbtone">
-              <ul type="square">
-                <li>
-                
-                  <Link to="/our_department">GYNECOLOGY</Link>
+                 
+                  <Link to="/our_department">RADIOLOGY</Link>
                 </li>
                 <li>
                  
-                  <Link to="/our_department"> SONOLOGIST</Link>
-                </li>
+                 <Link to="/our_department">PAEDIATRICS</Link>
+               </li>
               </ul>
             </div>
-
             <div className="footerbtone">
               <ul type="square">
                 <li>
-                  
-                  <Link to="/our_department">MEDICAL SPECIALIST</Link>
+                  <Link to="/our_department">GENERAL SURGERY</Link>
                 </li>
                 <li>
                 
-                  <Link to="/our_department">LAPAROSCOPY</Link>
+                  <Link to="/our_department">GENERAL MEDICINE</Link>
                 </li>
+                <li>
+                 <Link to="/our_department">OBSTETRICS & GYNAECOLOGY</Link>
+               </li>
               </ul>
             </div>
-
-           
+            {/* <div className="footerbtone">
+              <ul type="square">
+              <li>
+                 <Link to="/our_department">OBSTETRICS</Link>
+               </li>
+                <li>
+                <Link to="/our_department">GYNAECOLOGY</Link>
+                </li>
+              </ul>
+            </div> */}
           </div>
         </div>
         
 
-        <div className="fotterright fffbt">
+        {/* <div className="fotterright fffbt">
           <div className="footertop">
             <h6>QUICK NAVIGATIONS</h6>
           </div>
@@ -72,19 +73,18 @@ const Footer = () => {
                 </li>
                 <li>
                  
-                  <Link to="/our_department">CARDIOLOGIST</Link>
+                  <Link to="/our_department">RADIOLOGY</Link>
                 </li>
               </ul>
             </div>
             <div className="footerbtone">
               <ul type="square">
                 <li>
-                 
-                  <Link to="/our_department">GYNECOLOGY</Link>
+                  <Link to="/our_department">GENERAL SURGERY</Link>
                 </li>
                 <li>
                 
-                  <Link to="/our_department"> SONOLOGIST</Link>
+                  <Link to="/our_department">GENERAL MEDICINE</Link>
                 </li>
               </ul>
             </div>
@@ -92,16 +92,27 @@ const Footer = () => {
               <ul type="square">
                 <li>
                  
-                  <Link to="/our_department">MEDICAL SPECIALIST</Link>
+                  <Link to="/our_department">PAEDIATRICS</Link>
                 </li>
                 <li>
                   
-                  <Link to="/our_department">LAPAROSCOPY</Link>
+                  <Link to="/our_department">GYNAECOLOGY</Link>
                 </li>
               </ul>
             </div>
+            <div className="footerbtone">
+              <ul type="square">
+                <li>
+                 
+                  <Link to="/our_department">OBSTETRICS</Link>
+                </li>
+                <li>
+                 <Link to="/our_department"></Link>
+               </li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <BottomFooter />
