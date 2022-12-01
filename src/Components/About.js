@@ -7,11 +7,11 @@ const About = () => {
         <div className="aboutonep">
           <h2>About Us</h2>
           <p id="ppp">
-            A TEAM COMMITTED TO CARING FOR THE Patient IN MIND, BODY, AND SPIRIT.
+            A TEAM COMMITTED TO CARING FOR THE PATIENT IN MIND, BODY, AND SPIRIT.
           </p>
           <div className="para">
             <p>PARADKAR HOSPITAL & RESEARCH CENTRE, professionally Managed with Quality-driven
-            Multi-specialist Practice. PARADKAR HOSPITAL & RESEARCH CENTRE includes more than 120 physicians in
+             MULTI-SPECIALIST Practice. PARADKAR HOSPITAL & RESEARCH CENTRE includes more than 120 physicians in
             17 medical and surgical department, 35 doctors including RMO’s, 33
             nursing staff, 6 OT/CSSD technician, 5 radiographer and nearly 83
             non-clinical staff, apart from this the hospital has 49 beds. The
@@ -19,7 +19,7 @@ const About = () => {
             Khaira Hospital, patients and their family are at the core of
             everything we think, feel, and do. Your specific needs and unique
             life experiences inspire us to:</p>
-            <p>At PARADKAR HOSPITAL & RESEARCH CENTRE, patients and their family are at the core of everything we think, feel, and do. Your specific needs and unique life experiences inspire us to:</p>
+            <p>At PARADKAR HOSPITAL & RESEARCH CENTRE, PATIENTS AND THEIR FAMILY  are at the core of everything we think, feel, and do. Your specific needs and unique life experiences inspire us to:</p>
 
             <ul type="square">
                 <li>Put you—our patient—first.</li>
