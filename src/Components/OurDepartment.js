@@ -92,7 +92,7 @@ General Surgery" is a discipline of surgery having a central core of knowledge e
                 </div>
               </div>
               <div className="cadcontt">
-                <h5>ADVANCED ULTRASONOGRAPHY SERVICES</h5>
+                <h5>ADAVANCED ULTRASONOGRAPHY SERVICES</h5>
                 <p>
                 A procedure that uses high-energy sound waves to look at tissues and organs inside the body. The sound waves make echoes that form pictures of the tissues and organs on a computer screen (sonogram). Ultrasonography may be used to help diagnose diseases, such as cancer.
 It is an important tool for assessing fetal health, and most women have at least one ultrasound during pregnancy.

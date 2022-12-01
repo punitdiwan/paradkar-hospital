@@ -13,25 +13,25 @@ const Home = () => {
     {
       image: "./images/orthopedics.jpg",
       title: "This is a title",
-      description: "Orthopaedic",
+      description: "ORTHOPAEDICS",
       clickEvent: sliderClick,
     },
     {
-      image: "./images/urosurgery.jpg",
+      image: "./images/ARTHROSCOPY.jpeg",
       title: "This is a second title",
-      description: "Cardiologist",
+      description: "ARHTOSCOPTY AND JOINT REPLACEMENT",
       clickEvent: sliderClick,
     },
     {
-      image: "./images/trauma-care.jpg",
+      image: "./images/surg.jpeg",
       title: "This is a third title",
-      description: "Medical Specialist",
+      description: "GENERAL SURGERY",
       clickEvent: sliderClick,
     },
     {
-      image: "./images/ob-sonology-top.jpg",
+      image: "./images/IVF.jpeg",
       title: "This is a fourth title",
-      description: "Sonologist",
+      description: "IVF & TEST TUBE BABY CENTRE",
       clickEvent: sliderClick,
     },
     // {
@@ -65,15 +65,15 @@ const Home = () => {
     //   clickEvent: sliderClick,
     // },
     {
-      image: "./images/laproscopy.jpg",
+      image: "./images/ULTRASONOGRAPHY.jpeg",
       title: "This is a seventh title",
-      description: "Laproscopy",
+      description: "ADAVANCED ULTRASONOGRAPHY SERVICES",
       clickEvent: sliderClick,
     },
     {
       image: "./images/gynecology.jpg",
       title: "This is a seventh title",
-      description: "Gynecology",
+      description: "GYNAECOLOGY & OBSTETRICS",
       clickEvent: sliderClick,
     },
   ];
@@ -87,7 +87,7 @@ const Home = () => {
 
     <div className="cardslidersetup">
       <div className="spcialitiesContent text-center">
-        <h5>OUR SPECIALITIES</h5>
+        <h5>OUR SPECIALITIES </h5>
         <hr width="50" align-center style={{height:"5px", background:"green",border:"none", margin:"auto", borderRadius:"5px"}}/>
         <p style={{marginTop:"10px"}}>Carrers meets cure choose form a pool of high skilled renowned and credible doctors</p>
         <p>Individual quality care that meets the total need of patient</p>
@@ -108,44 +108,40 @@ const Home = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Orthopedics</h3>
+          <h3>ORTHOPAEDICS</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block"
-          src="./images/urosurgery.jpg"
+          src="./images/ARTHROSCOPY.jpeg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Cardiologist</h3>
+          <h3>ARHTOSCOPTY AND JOINT REPLACEMENT</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block"
-          src="./images/trauma-care.jpg"
+          src="./images/GENERAL-SEURGERY.jpeg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Medical Specialist</h3>
-          
+          <h3>GENERAL SURGERY</h3>
         </Carousel.Caption>
       </Carousel.Item>
-
-
-
       <Carousel.Item>
         <img
           className="d-block"
-          src="./images/ob-sonology-top.jpg"
+          src="./images/IVF.jpeg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Sonologist</h3>
+          <h3>IVF & TEST TUBE BABY CENTRE</h3>
           
         </Carousel.Caption>
       </Carousel.Item>
@@ -167,12 +163,12 @@ const Home = () => {
       <Carousel.Item>
         <img
           className="d-block"
-          src="./images/laproscopy.jpg"
+          src="./images/ULTRASONOGRAPHY.jpeg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Laproscopy</h3>
+          <h3>ADAVANCED ULTRASONOGRAPHY SERVICES</h3>
           
         </Carousel.Caption>
       </Carousel.Item>

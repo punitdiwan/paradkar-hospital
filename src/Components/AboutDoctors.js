@@ -98,11 +98,11 @@ const AboutDoctors = () => {
                 <p>
                   Bedded multi speciality unit with best in class facilities
                   is dedicated for advanced ortho, intensive and critical care,
-                  accident and super specialised fields like : Orthopaedic
-                  Surgeon, Medical Specialist & Cardiologist , Sonologist. We are also well
+                  accident and super specialised fields like : ORTHOPAEDICS
+                  SURGEONS, ARTHROSCOPY & JOINT REPLACEMENT SERVICES , GENERAL SURGERY. We are also well
                   allied with world-class amenities and are 24x7 super
                   specialized in the fields of - Internal Medicine, Maternity
-                  and Gynaecology, General Surgery
+                  and GYNAECOLOGY & OBSTETRICS, IVF & TEST TUBE BABY CENTRE, ADAVANCED ULTRASONOGRAPHY SERVICES.
                 </p>
               </div>
             </div>
