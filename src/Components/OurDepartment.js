@@ -7,7 +7,7 @@ const OurDepartment = () => {
         <div className="ourdepone">
           <h2>Departments</h2>
           <p id="ppp">
-          CENTER OF EXCELLENCE FOR  KEY SPECIALTIES AND  SUPERSPECIALIST
+          CENTER OF EXCELLENCE FOR  KEY SPECIALTIES 
           </p>
           <div className="para">
             <p>
@@ -108,7 +108,7 @@ It is an important tool for assessing fetal health, and most women have at least
                 </div>
               </div>
               <div className="cadcontt">
-                <h5>GYNAECOLOGY & OBSTETRICS</h5>
+                <h5>OBSTETRICS & GYNAECOLOGY</h5>
                 <p>
                 Gynaecology or gynecology is the medical practice dealing with the health of the female reproductive systems and the breasts. Outside medicine, the term means "the science of women". We try to provide you a friendly patient atmosphere where you can discuss all your problems
 Obstetricians provide surgical care for women during pregnancy and childbirth. They also handle postnatal care.

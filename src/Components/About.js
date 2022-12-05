@@ -11,18 +11,14 @@ const About = () => {
           </p>
           <div className="para">
             <p>PARADKAR HOSPITAL & RESEARCH CENTRE, professionally Managed with Quality-driven
-             MULTI-SPECIALIST Practice. PARADKAR HOSPITAL & RESEARCH CENTRE includes more than 120 physicians in
-            17 medical and surgical department, 35 doctors including RMO’s, 33
-            nursing staff, 6 OT/CSSD technician, 5 radiographer and nearly 83
-            non-clinical staff, apart from this the hospital has 49 beds. The
-            hospital is fully committed to patient-centred care. At Narsinghpur
-            Khaira Hospital, patients and their family are at the core of
+             MULTI-SPECIALIST Practice. PARADKAR HOSPITAL & RESEARCH CENTRE is fully committed to patient-centred care. At Narsinghpur
+             patients and their family are at the core of
             everything we think, feel, and do. Your specific needs and unique
             life experiences inspire us to:</p>
             <p>At PARADKAR HOSPITAL & RESEARCH CENTRE, PATIENTS AND THEIR FAMILY  are at the core of everything we think, feel, and do. Your specific needs and unique life experiences inspire us to:</p>
 
             <ul type="square">
-                <li>Put you—our patient—first.</li>
+                <li>PUT YOU—OUR PATIENT—FIRST.</li>
                 <li>Redefine healthcare for you and your community.</li>
                 <li>To constantly create a world-class facility for effective results.</li>
             </ul>

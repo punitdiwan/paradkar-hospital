@@ -34,7 +34,7 @@ const Facilities = () => {
             </div> */}
             <div className="onefcard">
               <img src="./images/icu.png" alt="" />
-              <p>24x7 20 bedded ICU &HDU</p>
+              <p>24x7 6 Bedded ICU & HDU</p>
             </div>
             <div className="onefcard">
               <img src="./images/sterilization.png" alt="" />
@@ -42,7 +42,7 @@ const Facilities = () => {
             </div>
             <div className="onefcard">
               <img src="./images/pathology.png" alt="" />
-              <p>Fully equipped pathology lab</p>
+              <p>Fully Equipped Pathology Lab</p>
             </div>
           </div>
 
@@ -55,15 +55,15 @@ const Facilities = () => {
             </div> */}
             <div className="onefcard">
               <img src="./images/conference.png" alt="" />
-              <p>Seminar hall</p>
+              <p>Seminar Hall</p>
             </div>
             <div className="onefcard">
               <img src="./images/operation-theater.png" alt="" />
-              <p>3 fully equipped modular OT</p>
+              <p>3 Fully Equipped Modular OT</p>
             </div>
             <div className="onefcard">
               <img src="./images/physiotherapy.png" alt="" />
-              <p>Physiotherapy facility</p>
+              <p>Physiotherapy Facility</p>
             </div>
           </div>
 
@@ -73,15 +73,15 @@ const Facilities = () => {
           <div className="facilitycard">
             <div className="onefcard">
               <img src="./images/pharmacy.png" alt="" />
-              <p>24x7 pharmacy</p>
+              <p>24x7 Pharmacy</p>
             </div>
             <div className="onefcard">
               <img src="./images/color-doppler.png" alt="" />
-              <p>Colour Doppler & echocardiography</p>
+              <p>Colour Doppler & Echocardiography</p>
             </div>
             <div className="onefcard">
               <img src="./images/x-ray.png" alt="" />
-              <p>Fully digitalised X-Ray facility</p>
+              <p>Fully Digitalised X-Ray Facility</p>
             </div>
             <div className="onefcard">
               <img src="./images/cafeteria.png" alt="" />
