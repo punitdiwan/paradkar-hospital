@@ -73,7 +73,7 @@ const Home = () => {
     {
       image: "./images/gynecology.jpg",
       title: "This is a seventh title",
-      description: "GYNAECOLOGY & OBSTETRICS",
+      description: "OBSTETRICS & GYNAECOLOGY",
       clickEvent: sliderClick,
     },
   ];
@@ -125,7 +125,7 @@ const Home = () => {
       <Carousel.Item>
         <img
           className="d-block"
-          src="./images/GENERAL-SEURGERY.jpeg"
+          src="./images/surg.jpeg"
           alt="Third slide"
         />
 
@@ -154,7 +154,7 @@ const Home = () => {
         />
 
         <Carousel.Caption>
-          <h3>Gynecology</h3>
+          <h3>OBSTETRICS & GYNAECOLOGY </h3>
           
         </Carousel.Caption>
       </Carousel.Item>

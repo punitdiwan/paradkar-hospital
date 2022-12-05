@@ -30,7 +30,7 @@ const Contactus = () => {
                   Have any question! Feel free to reach us by phone or mail.
                 </p>
                 <p>T : +91 - 8989665055</p>
-                <p>E : Paragparadkar@hotmail.com</p>
+                <p>E : paragparadkar@hotmail.com</p>
               </div>
             </div>
           </div>

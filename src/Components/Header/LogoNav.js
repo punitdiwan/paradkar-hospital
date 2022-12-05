@@ -23,7 +23,7 @@ const LogoNav = () => {
     <>
     <div className="toptop">
 <div className="tonavbar1">
-  <img src="./images/prlogo.png" alt="" />
+  <img src="./images/prlogo1.jpeg" alt="" />
 </div>
 <div className="menuimageicon">
 <i class="ri-menu-line" onClick={openmenu}></i>

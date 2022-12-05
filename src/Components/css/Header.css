@@ -81,7 +81,8 @@ font-size: 30px;
     /* border: 1px solid rgb(190, 186, 186); */
   }
   .tonavbar1 img{
-    width:30%;
+    /* width: 30%; */
+    width:22%;
     /* filter: invert(); */
   }
 
@@ -192,7 +193,8 @@ font-size: 30px;
         padding: 13px;
       }
       .tonavbar1 img{
-        width:180px;
+        /* width:180px; */
+        width: 26%;
       }
     
     
@@ -203,7 +205,36 @@ font-size: 30px;
 }
 
 
-
+@media (max-width:600px) {
+  .tonavbar1 img{
+    /* width:180px; */
+    width: 30%;
+  }
+}
+@media (max-width:500px) {
+  .tonavbar1 img{
+    /* width:180px; */
+    width: 36%;
+  }
+}
+@media (max-width:460px) {
+  .tonavbar1 img{
+    /* width:180px; */
+    width: 39%;
+  }
+}
+@media (max-width:420px) {
+  .tonavbar1 img{
+    /* width:180px; */
+    width: 44%;
+  }
+}
+@media (max-width:390px) {
+  .tonavbar1 img{
+    /* width:180px; */
+    width: 47%;
+  }
+}
 
 @media screen and (max-width:414px){
   .topone{

@@ -102,7 +102,7 @@ const AboutDoctors = () => {
                   SURGEONS, ARTHROSCOPY & JOINT REPLACEMENT SERVICES , GENERAL SURGERY. We are also well
                   allied with world-class amenities and are 24x7 super
                   specialized in the fields of - Internal Medicine, Maternity
-                  and GYNAECOLOGY & OBSTETRICS, IVF & TEST TUBE BABY CENTRE, ADAVANCED ULTRASONOGRAPHY SERVICES.
+                  and OBSTETRICS & GYNAECOLOGY, IVF & TEST TUBE BABY CENTRE, ADAVANCED ULTRASONOGRAPHY SERVICES.
                 </p>
               </div>
             </div>
